@@ -94,8 +94,8 @@ header, .header{
 .texto{
     position: absolute;
     padding: 40px;
-    left: 20%;
-    right: 1%;
+    left: 320px;
+    right: 20px;
     border: #646161 5px solid;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
@@ -110,19 +110,37 @@ header, .header{
     color: #a19f9f;
     padding-bottom: 30px;
     font-size: 30px;
+    text-align: justify;
 }
 
-.texto_inicial{
+.texto__inicial{
     color: #a1a19f;
-    padding-bottom: 50px;
     font-size: 30px;
     font-weight: bolder;
 }
 
 .texto__img{
-    width: 500px;
-    margin-right: 40px;
+    height: 400px;
+    margin: 0 30px 30px 0;
     float: left;
+}
+
+.texto__img__left{
+    height: 250px;
+    margin: 0 30px 30px 0;
+    float: left;
+}
+
+.texto__img__right{
+    height: 250px;
+    margin: 0 0 30px 30px;
+    float: right;
+}
+
+.texto__img__center{
+    height: 120px;
+    margin: 0 0 20px 30px;
+    float: right;
 }
 
 .texto__contacto{
