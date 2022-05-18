@@ -137,6 +137,12 @@ header, .header{
     float: right;
 }
 
+.texto__img__right2{
+    height: 200px;
+    margin: 0 0 30px 30px;
+    float: right;
+}
+
 .texto__img__center{
     height: 120px;
     margin: 0 0 20px 30px;
