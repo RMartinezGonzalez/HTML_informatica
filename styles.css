@@ -19,7 +19,7 @@ h1, h2{
 
 /*Cabezera que es lo que contiene el logo, el nombre y los tres datos a la izquierda*/
 header, .header{
-    font-size: 25px;
+    font-size: 1.5em;
     display: flex;
     height: 75px;
     justify-content: space-between;
@@ -36,7 +36,7 @@ header, .header{
 .header__info{
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500w;
     padding-right: 25px;
     text-decoration: none;
 }
@@ -117,6 +117,7 @@ header, .header{
     color: #a1a19f;
     font-size: 30px;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .texto__img{
